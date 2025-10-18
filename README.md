@@ -48,7 +48,10 @@ pip install -r requirements.txt
 ```
 
 3. Download the trained model:
-   - Place `swin_brain_tumor_complete.pth` in the project root directory
+   - The model file is too large for GitHub (331 MB)
+   - Download `swin_brain_tumor_complete.pth` from [Google Drive/OneDrive/Dropbox - Add your link]
+   - Place the downloaded file in the project root directory
+   - Or train your own model using the training code
 
 ## 🚀 Usage
 
@@ -73,14 +76,26 @@ The app will open in your browser at `http://localhost:8501`
 ```
 brain-tumor-detection/
 ├── app.py                          # Streamlit web application
-├── swin_brain_tumor_complete.pth   # Trained model weights
+├── swin_brain_tumor_complete.pth   # Trained model weights (download separately)
 ├── requirements.txt                # Python dependencies
 ├── README.md                       # Project documentation
+├── .gitignore                      # Git ignore rules
 ├── verify_model.py                 # Model verification script
 ├── fix_checkpoint.py               # Checkpoint repair utility
 ├── TRAINING_CODE_FIX.md           # Training code bug documentation
 └── SOLUTION_SUMMARY.md            # Issue resolution summary
 ```
+
+## 📥 Model Download
+
+The trained model file (`swin_brain_tumor_complete.pth`) is **331 MB** and cannot be hosted on GitHub.
+
+**Options to get the model:**
+1. **Download pre-trained model:** [Add your Google Drive/OneDrive link here]
+2. **Train your own:** Use the training code from the research paper implementation
+3. **Use Git LFS:** If you have Git LFS installed, you can track large files
+
+After downloading, place the `.pth` file in the project root directory.
 
 ## 🔧 Requirements
 
