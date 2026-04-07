@@ -27,7 +27,6 @@ wheels/
 *.pth
 *.pt
 *.onnx
-swin_brain_tumor_complete.pth
 
 # Jupyter Notebook
 .ipynb_checkpoints
